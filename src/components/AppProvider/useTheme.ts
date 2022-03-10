@@ -43,7 +43,6 @@ const setTheme = (newTheme: Theme) => {
     localStorage.setItem('theme', newTheme);
   } catch (err) {}
 
-  console.log('theme set:', newTheme);
 };
 
 const useTheme = () => {

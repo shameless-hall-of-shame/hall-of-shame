@@ -102,6 +102,6 @@ export const getStaticPaths: GetStaticPaths = () => {
   const allEventsIds = getAllEventsIds();
   return {
     paths: allEventsIds.map((id) => `/events/${id}`),
-    fallback: true,
+    fallback: false,
   };
 };

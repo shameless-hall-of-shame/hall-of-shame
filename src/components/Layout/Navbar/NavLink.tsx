@@ -13,7 +13,6 @@ const NavLink: FC<NavLinkProps> = ({href, children}) => {
   const {pathname} = useRouter();
   const isActive = pathname.startsWith(href);
 
-  console.log(isActive);
 
   return (
     <NextLink href={href}>

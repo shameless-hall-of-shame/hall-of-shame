@@ -5,7 +5,7 @@ const Navbar: FC = () => {
   return (
     <header className="sticky top-0 z-50">
       <div className="bg-gray-100  text-center py-1 text-sm md:text-base md:py-2 hover:underline text-blue-500">
-        <a target="_blank" href="https://twitter.com/hashtag/StandWithUkraine">
+        <a target="_blank" rel="noreferrer noopener" href="https://twitter.com/hashtag/StandWithUkraine">
           #StandWithUkraine 🇺🇦
         </a>
       </div>

@@ -156,6 +156,6 @@ export const getStaticPaths: GetStaticPaths = () => {
   console.log(allPersonsIds);
   return {
     paths: allPersonsIds.map((id) => `/persons/${id}`),
-    fallback: true,
+    fallback: false,
   };
 };
