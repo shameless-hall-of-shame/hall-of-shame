@@ -13,7 +13,6 @@ export interface EventEntity extends Entity {
 
 export interface IssueEntity extends Entity {
   title: string;
-  body: string | null;
   bodyHtml: string | null;
   userId: string;
   databaseId: number;
